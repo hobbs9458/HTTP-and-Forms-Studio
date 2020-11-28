@@ -1,19 +1,32 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<script>
-		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
-	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studio 25</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+	<form id="searchForm" method="GET">
+		<input type="text" name="q" id="searchBar">
 
-	<form id="searchForm">
-    <!-- TODO: add form elements -->
+		<input type="radio" name="engine" id="google" value="google">
+		<label for="google">Google</label>
+		<input type="radio" name="engine" id="duckDuckGo" value="duckDuckGo">
+		<label for="duckDuckGo">DuckDuckGo</label>
+		<input type="radio" name="engine" id="bing" value="bing">
+		<label for="bing">Bing</label>
+		<input type="radio" name="engine" id="ask" value="ask">
+		<label for="ask">Ask</label>
+	
+		<button id="searchFormBtn" type="submit">GO!</button>
 	</form>
-
+	<script src="script.js"></script>
 </body>
+</html>
+
+
+
+
+
+

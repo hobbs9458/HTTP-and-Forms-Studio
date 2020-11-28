@@ -1,0 +1,9 @@
+#searchFormBtn {
+    display: block;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 5px;
+    background: grey;
+    color: white;
+    margin-top: 5px;
+}
